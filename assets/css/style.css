@@ -80,6 +80,17 @@ p {
     overflow: hidden;
 }
 
+@media screen and (max-width: 576px) {
+    #cover-bg-img {
+        height: 50vh;
+        width: 100vw;
+    }
+    #cover-img-container {
+        height:50vh;
+        width: 100vw;
+    }
+}
+
 #cover-img-container {
     height: 75vh;
     width: 100vw;
@@ -88,22 +99,43 @@ p {
 
 /* ------- Cover Img CTA btn  ---- */
 
-.order-cta .btn, .btn-dark {
-    margin-bottom: 0.5vh;
+.order-cta-container {
+    background-color: #323232;
+    opacity: 0.9;
+    color: #daa520;
+    border: 1px solid #daa520;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+
+}
+
+.order-cta-container h3 {
+    text-transform:capitalize;
+    text-shadow: 1px 1px#fafafa; 
+    font-size: 28px;
+}
+
+.order-cta-container .btn, .btn-dark {
+    margin-bottom: 0.5vw;
+    padding: 0.25vw;
     background-color: #daa520;
     color: #fafafa;
-    border: 1px solid #fafafa;
+    border: 2px solid #fafafa;
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 0.25vw;
+    
 }
 
-.order-cta .btn:hover {
-    margin-bottom: 0.5vh;
+.order-cta-container .btn:hover {
+    margin-bottom: 0.5vw;
+    padding: 0.25vw;
     background-color: #fafafa;
     color: #daa520;
-    border: 1px solid #daa520;
-    border-radius: 50%;
+    border: 2px solid #daa520;
+    border-radius: 25%;
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 0.25vw;
