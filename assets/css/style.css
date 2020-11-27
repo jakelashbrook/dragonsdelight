@@ -29,8 +29,13 @@ p {
     border: 1px solid #daa520;
     width: 100vw;
     height: auto;
-    position: fixed;
-    
+    position: fixed;  
+}
+
+@media screen and (max-width: 992px) {
+    .navbar {
+        position: relative;
+    }
 }
 
 .navbar .logo-title {
@@ -82,7 +87,7 @@ p {
 
 @media screen and (max-width: 992px) {
     #cover-bg-img {
-        visibility: hidden;
+        height: 250px;
     }
 }
 
@@ -108,7 +113,7 @@ p {
 
 .order-cta-container h3 {
     text-transform:capitalize;
-    text-shadow: 1px 1px#fafafa; 
+    text-shadow: 1px 1px #fafafa; 
     font-size: 28px;
 }
 
@@ -139,16 +144,41 @@ p {
 /* About Us Section ------------------------------------------------ */
 
 /* --- Bio */
-.opening-bio {
+.opening-bio ,short-bio {
     background-color: #323232;
     color: #fafafa;
 }
 
 .short-bio h3 {
     color: #daa520;
-    text-shadow: 1px 1px #fafafa;
+    text-shadow: 2px 2px #fafafa;
     font-size: 30px;
 }
 .short-bio hr {
     border: 2px solid #daa520;
+}
+
+/* --- Opening Times */
+.opening-bio .opening-times {
+    background-color: #323232;
+    color: #fafafa;
+}
+.opening-times h3 {
+   color: #daa520;
+   text-shadow: 2px 2px #fafafa; 
+   font-size: 30px;
+}
+
+.opening-times hr {
+    border: 2px solid #daa520;
+}
+
+.opening-times mark {
+    background-color: #daa520;
+    font-weight: 700;
+    color: #323232;
+}
+
+.opening-times a {
+    color: #daa520;
 }
