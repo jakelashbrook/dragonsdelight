@@ -1,45 +1,113 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Dragons Delight Cafe and Bakery Website
 
-Welcome USER_NAME,
+[You can view the project here on Github Pages]{}
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+Image of completed project to go here.
 
-## Gitpod Reminders
+This is the main online prescence for Dragons Delight excluding their Social Media profiles. The aim is to
+provide everything that customers are looking for in one place. It is designed to be responsive so that 
+users can access it from multiple devices. This site will be made with a mobile first approach due to the fact
+the main income of the business comes from adventurous tourists exploring Amsterdam.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## User Experience (UX) 
+  - First Time User Goals:
 
-`python3 -m http.server`
+    - a. As a first time user, I want to access a menu to see what products are available should i choose to visit.
+    - b. As a first time user, I want to be able to easily navigate through the site content and find what i'm looking
+         for with ease.
+    - c. As a first time user, I want to see pictures of the restaurant and food to get a feel for the atmosphere
+         and act as evidence of the standard and quality of food. 
+    - d. As a first time user, I want to easily find contact methods such as social media, email or telephone links.
 
-A blue button should appear to click: *Make Public*,
 
-Another blue button should appear to click: *Open Browser*.
+- As a Returning user:
+    - a. As a returning visitor, I want to know if there has been any menu changes or updates.
+    - b. As a returning visitor, I want to check that the opening times have not changed.
+    
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- As a Frequent user:
+   - a. As a frequent user, I want to know how I can keep up to date with all the latest
+        Dragons Delight news. Is there a newsletter/blog? Where are announcements made?
+   - b. As a frequent user, I want to know about any weekly specials or loyalty schemes.
+   
+-Design 
 
-A blue button should appear to click: *Make Public*,
+  - Colour Scheme:
+        - The colour scheme for the website will be an pffshade of white (#fafafa), a dark  (#323232) and a light brown 
+          (#daa520) to bring in the idenity of the business and their colour scheme within the building.
+  - Typography:
+        - There will be two fonts used on the site, both supplied by Google Fonts. Just Another Hand for the 
+        headings and logo of the site, and Noto Sans JP for the rest of the site. Sans-serif will be used as the backup
+        default font-family.
 
-Another blue button should appear to click: *Open Browser*.
+  - Imagery:
+        - Imagery will be used frequently in the site to catch the users attention and entice them to sample
+        some of the great products available. The main page will consist of areas with Images as backgrounds,
+        and there will also be a Image Gallery Section for users to look through.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- Wireframes:
 
-## Updates Since The Instructional Video
+## Features
+  - Easy navigation through the site.
+  - Responsive on all devices.
+  - Social Media Links, with future further integration planned with Messenger.
+  - Visuals of the products for sale in the gallery.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## Technologies Used 
+### Languages Used:  
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+    -[HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
+    -[CSS3](https://developer.mozilla.org/en-US/docs/Archive/CSS3#:~:text=CSS3%20is%20the%20latest%20evolution,flexible%20box%20or%20grid%20layouts.)
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Frameworks, Libraries and Programs Used:  
+1. [Bootstrap 4:](https://getbootstrap.com/docs/4.5/getting-started/download/)
+    - Bootstrap is used to assist with the layout and element styling, as well as the responsiveness of the site.
+2. [Google Fonts:](https://fonts.google.com/) 
+    - Google Fonts was used to import the 'Just Another Hand' and 'Noto Sans JP' fonts to the
+      style.css page. Both fonts are used across the entire site.
+3. [Font Awesome:](https://fontawesome.com/)
+    - Font Awesome was used across all pages in the site to catch the users attention and fit with UX 
+      conventions.
+4. [Git:](https://git-scm.com/)
+    - Git was used for maintaining version control for possible later edits, changes, updates or fixes. 
+      The Gitpod terminal was used to commit to Git, and then Git pushed to GitHub.
+5. [GitHub:](https://github.com/)
+    - GitHub is used to store the project as a repository after being pushed by Git. 
+6. [W3.css](https://www.w3schools.com/w3css/default.asp)
+    - W3.css was used to add extra responsivity and styling to the layout of the site.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## Testing 
+The W3C Markup Validator and The W3C CSS Validator Services were used to validate every page of the project
+to ensure there were no syntax errors in the project.
+    - [W3C Markup Validator - Results](#)
+    - [W3C CSS Validator - Results](#)
+### Testing User Stories from the UX Section  
+ - First Time User Goals:
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+ - Returning User Goals:
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+ - Frequent User Goals:
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Further Testing  
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+## Deployment
+ ### GitHub Pages
+ ### Forking the repository
+ ### Making a Local clone 
 
---------
+## Credits 
+ ### Code 
 
-Happy coding!
+  ### Content
+ - All of the content was developed by Jake Ashley Lashbrook. Business operation times and menu items were provided
+   by Dragons Delight, Tolstraat 200, Amsterdam, 1074 VN, NL.
+ ### Media 
+ - All Images used on the site are owned by Dragons Delight and taken from their [Facebook Page]("https://www.facebook.com/DragonsDelightAmsterdam")
+   with consent to be exclusively used by Jake Ashley Lashbrook in developing their future website.
+ ### Acknowledgements 
+ - Antonio Rodriguez , my Code Institute Mentor for supporting me through my learning within the Development industry
+   and Code Institute platform. 
+ - The Code Institute Team, for teaching me skills that enabled me to push my knowledge capacity further day after day and 
+   introducing me to working with Bootstrap as a framework.
+ - Dragons Delight Cafe in Amsterdam for helping me to decide on changing career path and trusting me to develop my first
+   website for them.
