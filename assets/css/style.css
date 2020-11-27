@@ -11,7 +11,7 @@ h3 {
     font-family: "Just Another Hand", cursive;
     text-transform: uppercase;
     letter-spacing: 4px;
-    font-size: 28px;
+    font-size: 30px;
 }
 
 p {
@@ -80,6 +80,7 @@ mark {
 
 .navbar .nav-link:hover {
     background-color: #daa520;
+    border-radius: 10px;
 }
 
 
@@ -150,16 +151,15 @@ mark {
     background-color: #fafafa;
     color: #daa520;
     border: 2px solid #daa520;
-    border-radius: 25%;
+    border-radius: 10px;
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 0.25vw;
 }
 
 /* About Us Section ------------------------------------------------ */
-
 /* --- Bio */
-.opening-bio ,short-bio {
+.short-bio {
     background-color: #323232;
     color: #fafafa;
 }
@@ -179,7 +179,57 @@ mark {
    text-shadow: 2px 2px #fafafa; 
 }
 
+/* Why Visit Us? */
 
+.why-us-container {
+    width: 100vw;
+    height: auto;
+    
+}
+.why-us-bg-img {
+    background-image: url("../images/dutch-apple-pie.webp");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: saturate(75%);
+
+    width: 100vw;
+    height: auto;
+   
+}
+
+.why-us-title {
+    padding: 25px;
+    color: #fafafa;
+}
+
+.why-us-title h3 {
+    border: 2px solid #fafafa;
+    text-shadow: 2px 2px #323232;
+    background-color: #daa520;
+    opacity: 0.9;
+}
+
+.why-us-container .col {
+    border: 2px solid #fafafa;
+    text-align: center;
+    color: #323232;
+    text-shadow: 2px 2px #fafafa;
+    background-color: #daa520;
+    opacity: 0.9;
+}
+
+.why-us-container h5 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fafafa;
+    text-shadow: 1px 1px #323232;
+}
+
+.why-us-container .col i {
+    font-size: 42px;
+    text-shadow: 2px 2px #fafafa;
+}
 
 
 
