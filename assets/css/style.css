@@ -80,14 +80,9 @@ p {
     overflow: hidden;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 992px) {
     #cover-bg-img {
-        height: 50vh;
-        width: 100vw;
-    }
-    #cover-img-container {
-        height:50vh;
-        width: 100vw;
+        visibility: hidden;
     }
 }
 
@@ -139,4 +134,21 @@ p {
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 0.25vw;
+}
+
+/* About Us Section ------------------------------------------------ */
+
+/* --- Bio */
+.opening-bio {
+    background-color: #323232;
+    color: #fafafa;
+}
+
+.short-bio h3 {
+    color: #daa520;
+    text-shadow: 1px 1px #fafafa;
+    font-size: 30px;
+}
+.short-bio hr {
+    border: 2px solid #daa520;
 }
