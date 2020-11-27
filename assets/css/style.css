@@ -1,16 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&family=Noto+Sans+JP:wght@300&display=swap');
-
 * {
     box-sizing: border-box;
 }
 
 
+/* Font and Style Rules */
+
 h1,
 h2,
 h3 {
-    font-family: "Just Another Hand", sans-serif;
+    font-family: "Just Another Hand", cursive;
     text-transform: uppercase;
     letter-spacing: 4px;
+    font-size: 28px;
 }
 
 p {
@@ -18,6 +19,17 @@ p {
     font-family: "Noto Sans Jp", sans-serif;
 }
 
+a {
+ color: #daa520;
+}
+
+hr {
+    border: 2px solid #daa520;
+}
+
+mark {
+    background-color: #daa520;
+}
 
 /* The Navigation Bar */
 .nav-container {
@@ -62,7 +74,6 @@ p {
 .navbar .nav-link {
     color: #fafafa;
     font-weight: 600;
-    font-size: 18px;
     margin: 0 15px 0 15px;
     letter-spacing: 2px;
 }
@@ -78,15 +89,20 @@ p {
     width: 100vw;
     margin-right: 0;
 
-    background-image: url("../images/other-vegan-pancakes.jpg");
+    background-image: url("../images/other-vegan-pancakes.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
     #cover-bg-img {
+        background-image: url("../images/homemade-english-muffins.webp");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
         height: 250px;
     }
 }
@@ -114,7 +130,6 @@ p {
 .order-cta-container h3 {
     text-transform:capitalize;
     text-shadow: 1px 1px #fafafa; 
-    font-size: 28px;
 }
 
 .order-cta-container .btn, .btn-dark {
@@ -152,10 +167,6 @@ p {
 .short-bio h3 {
     color: #daa520;
     text-shadow: 2px 2px #fafafa;
-    font-size: 30px;
-}
-.short-bio hr {
-    border: 2px solid #daa520;
 }
 
 /* --- Opening Times */
@@ -166,19 +177,28 @@ p {
 .opening-times h3 {
    color: #daa520;
    text-shadow: 2px 2px #fafafa; 
-   font-size: 30px;
 }
 
-.opening-times hr {
-    border: 2px solid #daa520;
+
+
+
+
+/* Scroll to the top button */
+#top-of-the-page-btn {
+  position: fixed; 
+  bottom: 25px; 
+  right: 25px; 
+  z-index: 99; 
+  border: 1px solid #fafafa; 
+  background-color: #daa520; 
+  color: #fafafa; 
+  padding: 10px; 
+  border-radius: 50px; 
+  font-size: 16px; 
 }
 
-.opening-times mark {
-    background-color: #daa520;
-    font-weight: 700;
-    color: #323232;
-}
-
-.opening-times a {
-    color: #daa520;
+#top-of-the-page-btn:hover {
+  background-color: #fafafa; /* Add a dark-grey background on hover */
+  color: #daa520;
+  border: 1px solid #daa520;
 }
