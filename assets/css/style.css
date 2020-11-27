@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&family=Noto+Sans+JP:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+
+h1,
+h2,
+h3 {
+    font-family: "Just Another Hand", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+p {
+    font-size: 18px;
+    font-family: "Noto Sans Jp", sans-serif;
+}
+
+/* --- Cover Image */
+#cover-bg-img {
+    height: 500px;
+    width: auto;
+
+    background-image: url("../images/other-vegan-pancakes.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+#cover-img-container {
+    height: 500px;
+    width: auto;
+}
+
+/* The Navigation Bar */
+.navbar {
+background-color: #323232;
+opacity: 0.9;
+border: 1px solid #daa520;
+}
+
+.navbar .logo-title {
+    text-decoration: none;
+    font-family: "Just Another Hand", sans-serif;
+    font-size: 30px;
+    color: #daa520;
+    text-shadow: 0.5px 0.5px #fafafa;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.navbar-toggler i {
+    color: #fafafa;
+}
+
+
+.navbar .nav-link {
+    color: #fafafa;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0 15px 0 15px;
+    letter-spacing: 2px;
+}
+
+.navbar .nav-link:hover {
+    background-color: #daa520;
+}
+
+
+/* ------- Cover Img CTA btn & txt ---- */
+.order-cta {
+    margin-top: 200px;
+    text-align: center;
+    background-color: #323232;
+    color: #daa520;
+    border: 1px solid #daa520;
+    opacity: 0.9;
+    width: 66%;
+}
+
+.order-cta h2 {
+    text-shadow: 0.5px 0.5px #fafafa;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.order-cta .btn, .btn-dark {
+    margin-bottom: 10px;
+    background-color: #daa520;
+    color: #fafafa;
+    border: 1px solid #fafafa;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.order-cta .btn:hover {
+    margin-bottom: 10px;
+    background-color: #fafafa;
+    color: #daa520;
+    border: 1px solid #daa520;
+    border-radius: 50%;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
