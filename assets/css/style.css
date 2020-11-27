@@ -18,29 +18,19 @@ p {
     font-family: "Noto Sans Jp", sans-serif;
 }
 
-/* --- Cover Image */
-#cover-bg-img {
-    height: 500px;
-    width: auto;
-
-    background-image: url("../images/other-vegan-pancakes.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
-
-}
-
-#cover-img-container {
-    height: 500px;
-    width: auto;
-}
 
 /* The Navigation Bar */
+.nav-container {
+    padding: 0;
+}
 .navbar {
-background-color: #323232;
-opacity: 0.9;
-border: 1px solid #daa520;
+    background-color: #323232;
+    opacity: 0.9;
+    border: 1px solid #daa520;
+    width: 100vw;
+    height: auto;
+    position: fixed;
+    
 }
 
 .navbar .logo-title {
@@ -57,6 +47,12 @@ border: 1px solid #daa520;
     color: #fafafa;
 }
 
+.navbar .collapse .navbar-collapse {
+    background-color: #323232;
+    opacity: 0.9;
+    border: 1px solid #daa520;
+}
+
 
 .navbar .nav-link {
     color: #fafafa;
@@ -71,40 +67,44 @@ border: 1px solid #daa520;
 }
 
 
-/* ------- Cover Img CTA btn & txt ---- */
-.order-cta {
-    margin-top: 200px;
-    text-align: center;
-    background-color: #323232;
-    color: #daa520;
-    border: 1px solid #daa520;
-    opacity: 0.9;
-    width: 66%;
+/* --- Cover Image */
+#cover-bg-img {
+    height: 75vh;
+    width: 100vw;
+    margin-right: 0;
+
+    background-image: url("../images/other-vegan-pancakes.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
 }
 
-.order-cta h2 {
-    text-shadow: 0.5px 0.5px #fafafa;
-    letter-spacing: 2px;
-    text-transform: capitalize;
+#cover-img-container {
+    height: 75vh;
+    width: 100vw;
+    margin-right: 0;
 }
+
+/* ------- Cover Img CTA btn  ---- */
 
 .order-cta .btn, .btn-dark {
-    margin-bottom: 10px;
+    margin-bottom: 0.5vh;
     background-color: #daa520;
     color: #fafafa;
     border: 1px solid #fafafa;
     text-transform: uppercase;
     font-weight: 700;
-    letter-spacing: 1px;
+    letter-spacing: 0.25vw;
 }
 
 .order-cta .btn:hover {
-    margin-bottom: 10px;
+    margin-bottom: 0.5vh;
     background-color: #fafafa;
     color: #daa520;
     border: 1px solid #daa520;
     border-radius: 50%;
     text-transform: uppercase;
     font-weight: 700;
-    letter-spacing: 1px;
+    letter-spacing: 0.25vw;
 }
