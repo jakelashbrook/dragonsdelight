@@ -89,7 +89,7 @@ mark {
 
 /* --- Cover Image */
 #cover-bg-img {
-    height: 75vh;
+    height: 60vh;
     width: 100vw;
     margin-right: 0;
 
@@ -102,7 +102,7 @@ mark {
 
 
 #cover-img-container {
-    height: 75vh;
+    height: 60vh;
     width: 100vw;
     margin-right: 0;
 }
@@ -115,7 +115,7 @@ mark {
     color: #daa520;
     border: 1px solid #daa520;
     text-align: center;
-    margin: 0;
+    margin-bottom: 25px;
     padding: 0;
     position: absolute;
 
@@ -147,7 +147,12 @@ mark {
 
 /* About Us Section ------------------------------------------------ */
 .opening-bio {
-    border: 1px solid #daa520;
+    border-width: 0.5px 1px 0.5px 1px; 
+    border-style: solid;
+    border-color:#daa520;
+
+    margin: 0;
+    padding: 0;
 }
 /* --- Bio */
 .short-bio {
@@ -164,9 +169,12 @@ mark {
 /* Why Visit Us? */
 
 .why-us-container {
-    width: 100vw;
-    height: auto;
-    border: 1px solid #daa520;
+    border-width: 0.5px 1px 0.5px 1px;
+    border-style: solid;
+    border-color:#daa520;
+
+    margin-top: 0;
+    padding-top: 0;
 }
 .why-us-bg-img {
     background-image: url("../images/dutch-apple-pie.webp");
@@ -174,9 +182,8 @@ mark {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
+    padding-bottom: 20px;
     
-    width: 100vw;
-    height: auto;
 }
 
 .why-us-title {
@@ -215,31 +222,43 @@ mark {
 .newsletter-container {
     background-color: #323232;
     padding-top: 15px;
-    border: 1px solid #daa520;
+    border-width: 0.5px 1px 0.5px 1px;
+    border-style: solid;
+    border-color: #daa520;
+    text-align: center;
 }
 
 .newsletter-container .newsletter-title {
     text-shadow: 1px 1px #fafafa;
+    margin-bottom: 15px;
 }
 
 .newsletter-container input[type="email"] {
     width: 100%;
     display: inline-block;
     box-sizing: border-box;
-    padding: 5px;
+    padding: 4px;
+    margin: 15px;
     border: 2px solid #daa520;
 }
 
 .newsletter-container input[type="submit"] {
-    width: 50%;
-    display: inline-block;
+    width: 30%;
     box-sizing: border-box;
-    padding: 5px;
+    padding: 4px;
+    margin: 15px;
     font-weight: 600;
-    text-align: center;
     text-transform: uppercase;
     background-color: #daa520;
     color: #fafafa;
+    border: 1px solid #fafafa;
+}
+
+.newsletter-container input[type="submit"]:hover {
+    background-color: #fafafa;
+    color: #daa520;
+    border: 1px solid #daa520;
+    border-radius: 10px;
 }
 
 
