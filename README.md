@@ -97,6 +97,8 @@ to ensure there were no syntax errors in the project.
 
 ## Credits 
  ### Code 
+ - The inspiration for the Navigation bar came from the [Bootstrap 4.0.0](https://getbootstrap.com/docs/4.3/components/navbar/)
+   documentation on Navbars.
 
   ### Content
  - All of the content was developed by Jake Ashley Lashbrook. Business operation times and menu items were provided
