@@ -46,7 +46,14 @@ the main income of the business comes from adventurous tourists exploring Amster
         and there will also be a Image Gallery Section for users to look through.
 
 - Wireframes:
-
+       
+  - You can view the [mobile wireframe here.]("./assets/wireframes/mobile-wireframe.jpg")
+  - The site will have one page with 3 sections within it. There are 4 wireframes sketched for the desktop version.
+    Please click the links to see each wireframe:   
+    - [Navigation Wireframe]("./assets/wireframes/navigation-wireframe.jpg")
+    - [Menu Wireframe]("./assets/wireframes/menu-wireframe.jpg")
+    - [Reservation Wireframe]("./assets/wireframes/reservation-wireframe.jpg")
+    - [Gallery Wireframe]("./assets/wireframes/gallery-wireframe.jpg")
 ## Features
   - Easy navigation through the site.
   - Responsive on all devices.
@@ -56,11 +63,12 @@ the main income of the business comes from adventurous tourists exploring Amster
 ## Technologies Used 
 ### Languages Used:  
 
-    -[HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
-    -[CSS3](https://developer.mozilla.org/en-US/docs/Archive/CSS3#:~:text=CSS3%20is%20the%20latest%20evolution,flexible%20box%20or%20grid%20layouts.)
+  -[HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)  
+
+  -[CSS3](https://developer.mozilla.org/en-US/docs/Archive/CSS3#:~:text=CSS3%20is%20the%20latest%20evolution,flexible%20box%20or%20grid%20layouts.)
 
 ### Frameworks, Libraries and Programs Used:  
-1. [Bootstrap 4:](https://getbootstrap.com/docs/4.5/getting-started/download/)
+1. [Bootstrap 4.0.0:](https://getbootstrap.com/docs/4.5/getting-started/download/)
     - Bootstrap is used to assist with the layout and element styling, as well as the responsiveness of the site.
 2. [Google Fonts:](https://fonts.google.com/) 
     - Google Fonts was used to import the 'Just Another Hand' and 'Noto Sans JP' fonts to the
