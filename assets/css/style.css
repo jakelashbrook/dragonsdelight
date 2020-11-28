@@ -41,7 +41,8 @@ mark {
     border: 1px solid #daa520;
     width: 100vw;
     height: auto;
-    position: fixed;  
+    position: fixed; 
+    z-index: 99;
 }
 
 @media screen and (max-width: 992px) {
@@ -97,16 +98,6 @@ mark {
     overflow: hidden;
 }
 
-@media screen and (max-width: 768px) {
-    #cover-bg-img {
-        background-image: url("../images/homemade-english-muffins.webp");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        overflow: hidden;
-        height: 250px;
-    }
-}
 
 #cover-img-container {
     height: 75vh;
@@ -188,10 +179,11 @@ mark {
 }
 .why-us-bg-img {
     background-image: url("../images/dutch-apple-pie.webp");
+    filter: saturate(75%);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    filter: saturate(75%);
+    
 
     width: 100vw;
     height: auto;
@@ -200,34 +192,34 @@ mark {
 
 .why-us-title {
     padding: 25px;
-    color: #fafafa;
+    color: #daa520;
+    font-weight: 800;
 }
 
 .why-us-title h3 {
-    border: 2px solid #fafafa;
-    text-shadow: 2px 2px #323232;
-    background-color: #daa520;
+    border: 5px solid #daa520;
+    text-shadow: 2px 2px #fafafa;
+    background-color: #323232;
     opacity: 0.9;
 }
 
 .why-us-container .col {
-    border: 2px solid #fafafa;
+    border: 5px solid #daa520;
     text-align: center;
-    color: #323232;
-    text-shadow: 2px 2px #fafafa;
-    background-color: #daa520;
+    background-color: #323232;;
     opacity: 0.9;
 }
 
 .why-us-container h5 {
     font-size: 24px;
     font-weight: 700;
-    color: #fafafa;
-    text-shadow: 1px 1px #323232;
+    color: #daa520;
+    text-shadow: 2px 2px #fafafa;
 }
 
 .why-us-container .col i {
     font-size: 42px;
+    color: #daa520;
     text-shadow: 2px 2px #fafafa;
 }
 
