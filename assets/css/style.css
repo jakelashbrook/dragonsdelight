@@ -239,7 +239,7 @@ em {
 
 .newsletter-container .newsletter-title {
     color: #fafafa;
-    text-shadow: 1px 1px #323232;
+    text-shadow: 2px 2px #323232;
     margin-bottom: 15px;
 }
 
@@ -321,7 +321,7 @@ em {
     color: #daa520;
     text-shadow: 1px 1px #fafafa;
     background-color: #323232;
-    opacity: 0.75;
+    opacity: 0.9;
     border: 1px solid #daa520;
     text-transform: uppercase;
     font-size: 30px;
@@ -336,20 +336,20 @@ em {
 
 .order-via .col .btn {
     text-transform: uppercase;
-    color: #daa520;
-    background-color: #323232;
-    opacity: 0.75;
+    color: #fafafa;
+    background-color: #daa520;
+    opacity: 0.9;
     font-weight: 800;
-    border: 2px solid #daa520;
+    border: 2px solid #fafafa;
     margin-top: 25px;
     margin-bottom: 25px;
 }
 
 .order-via .col .btn:hover {
-    background-color: #daa520;
-    opacity: 0.75;
-    color: #323232;
-    border: 2px solid #323232;
+    background-color: #fafafa;
+    opacity: 0.9;
+    color: #daa520;
+    border: 2px solid #daa520;
     border-radius: 10px; 
 }
 
@@ -372,7 +372,8 @@ em {
 }
 
 .menu-body h5 {
-  text-shadow: 1px 1px #daa520;
+  color: #daa520;
+  text-shadow: 1px 1px #fafafa;
   letter-spacing: 2px;
   font-size: 24px;
 }
@@ -400,7 +401,55 @@ em {
 }
 
 /* Reservation Form                      */
+.reservation-area {
+    background-image: url(../images/blt-scone.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
+    padding-top: 25px;
+}
+
+.reservation-area .reservation-title {
+    background-color: #323232;
+    opacity: 0.9;
+}
+
+
+.reservation-title h3 {
+    color: #daa520;
+    text-shadow: 1px 1px #fafafa;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding: 4px;
+    margin-top: 25px;
+}
+
+
+.reservation-area form {
+    background-color: #323232;
+    opacity: 0.9;
+    color: #daa520;
+}
+
+.reservation-area form input {
+    border: 2px solid #daa520;
+}
+
+.reservation-area form label {
+    text-transform: uppercase;
+}
+
+.reservation-area small {
+    color: #fafafa;
+    opacity: 0.75;
+}
+
+.reservation-area form .btn {
+    background-color: #daa520;
+    border: 1px solid #fafafa;
+    color: #fafafa;
+}
 
 
 
