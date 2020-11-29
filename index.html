@@ -406,25 +406,25 @@
 
 <!--Reservation Form   -->
 
-<div class="jumbotron-fluid reservation-area">
+<div class="jumbotron-fluid m-0 p-4 reservation-area">
     <div class="container">
         <div class="reservation-title">
-            <h3 class="text-center mt-3"> Make A Reservation</h3>
+            <h3 class="text-center text-uppercase p-1 mt-4"> Make A Reservation</h3>
             <hr>
         </div>
     </div>
-    <form class="container text-center">
+    <form class="container text-center pb-3">
         <div class="form-group">
-        <label for="fullname">Full Name</label>
+        <label for="fullname" class="text-uppercase">Full Name</label>
         <input type="text" class="form-control pl-3 pr-3" id="fullname" placeholder="Full Name..">
   </div>
   <div class="form-group">
-        <label for="email-address">Email address</label>
+        <label for="email-address" class="text-uppercase">Email address</label>
         <input type="email" class="form-control pl-3 pr-3" id="email-address" aria-describedby="emailHelp" placeholder="Enter Email Address..">
         <small id="emailHelp" class="form-text">We will not share your email address with any third parties.</small>
   </div>
   <div class="form-group">   
-        <label for="guests">Guests</label>
+        <label for="guests" class="text-uppercase">Guests</label>
         <select id="guests" class="custom-select" name="guests" required>
             <option value="1">1 person</option>
             <option value="2">2 persons</option>
@@ -434,9 +434,66 @@
             <option value="6">6 persons</option>
         </select>
     </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary text-uppercase">Submit</button>
     </form>
 </div>
+<!-- Reviews Slider             -->
+<div class="jumbotron-fluid ta-reviews">
+        <h3 class="text-center m-0 p-3"><i class="far fa-comment-alt"></i> Reviews</h3>
+        <hr>
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+        <div class="container">
+            <div class="row">
+            <div class="col">
+        <h5 class="font-italic">Cute cafe, Great menu!</h5>
+                <blockquote cite="https://www.tripadvisor.co.uk/Restaurant_Review-g188590-d9817477-Reviews-Dragons_Delight-Amsterdam_North_Holland_Province.html">
+                <i class="fas fa-quote-left"></i> I was made to feel very welcome and was served very promptly and curtiously. The food was delicious, so much to 
+                choose from on the menu but the eggs benedict was fabulous. So were the green smoothie and the fresh ginger tea. 
+                They have pie on the menu which had it been later in the day I would probably have gone for. 
+                Home-made food, good prices, great service- what's not to love? <i class="fas fa-quote-right"></i>
+                </blockquote>
+            </div>
+            <div class="col d-none d-lg-block">
+                <h5 class="font-italic">Amazing!</h5>
+                <blockquote><i class="fas fa-quote-left"></i>Great portion size, friendly staff and the food was amazing!!! 
+                I’m going to make it a tradition to visit this restaurant every time I visit Amsterdam.<i class="fas fa-quote-right"></i></blockquote>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="carousel-item">
+     <div class="container">
+        <div class="row">
+        <div class="col">
+            <h5 class="font-italic">Fab Little Find, Next to our hotel!</h5>
+                <blockquote cite="https://www.tripadvisor.co.uk/Restaurant_Review-g188590-d9817477-Reviews-Dragons_Delight-Amsterdam_North_Holland_Province.html">
+                 <i class="fas fa-quote-left"></i> Fab little find. Our hotel was charging 21 euro for brekkie, which we felt was a little steep. Went over the road 
+                 to this cafe and we were not disappointed. Brilliant service, brilliant food. Not an egg lover, 
+                 but the scrambled eggs were the best I’ve had. And the cappuccino was to die for. 
+                 Reasonably priced and served with a smile. <i class="fas fa-quote-right"></i>
+                </blockquote>
+        </div>
+        <div class="col d-none d-lg-block">
+            <h5 class="font-italic">Delicious breakfast</h5>
+            <blockquote><i class="fas fa-quote-left"></i>I ordered the chocolate pancakes and they were cooked quickly, 
+            served hot. Incredibly friendly and good service!<i class="fas fa-quote-right"></i></blockquote>
+        </div>
+     </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+    </div>
+    </div>
 </section>
 
 

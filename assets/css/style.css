@@ -76,7 +76,8 @@ i {
 }
 
 .navbar-toggler i {
-    color: #fafafa;
+    color: #daa520;
+    text-shadow: none;
 }
 
 .navbar .collapse .navbar-collapse {
@@ -303,15 +304,15 @@ i {
 
 
 .order-via .col .btn {
-    color: #fafafa;
-    background-color: #daa520;
+    color: #daa520;
+    background-color: #323232;
     opacity: 0.9;
     font-weight: 800;
-    border: 2px solid #fafafa;
+    border: 2px solid #daa520;
 }
 
 .order-via .col .btn:hover {
-    background-color: #fafafa;
+    background-color: #323232;
     opacity: 0.9;
     color: #daa520;
     border: 2px solid #daa520;
@@ -371,8 +372,6 @@ i {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
-    padding-top: 25px;
 }
 
 .reservation-area .reservation-title {
@@ -384,10 +383,6 @@ i {
 .reservation-title h3 {
     color: #daa520;
     text-shadow: 1px 1px #fafafa;
-    text-transform: uppercase;
-    font-size: 30px;
-    padding: 4px;
-    margin-top: 25px;
 }
 
 
@@ -401,8 +396,8 @@ i {
     border: 2px solid #daa520;
 }
 
-.reservation-area form label {
-    text-transform: uppercase;
+.reservation-area select {
+    border: 2px solid #daa520;
 }
 
 .reservation-area small {
@@ -422,7 +417,29 @@ i {
     color: #daa520;
 }
 
+/*         Tripadvisor Reviews */
+.ta-reviews {
+    background-color: #323232;
+    color: #fafafa;
+}
 
+.ta-reviews .col {
+    margin: 15px;
+    text-align: center;
+}
+
+
+.ta-reviews h5 {
+    color: #daa520;
+}
+
+.ta-reviews blockquote {
+    font-style: italic;
+}
+
+.ta-reviews i {
+    color: #daa520;
+}
 
 
 /* Scroll to the top button */
