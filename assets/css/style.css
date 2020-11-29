@@ -451,6 +451,12 @@ em {
     color: #fafafa;
 }
 
+.reservation-area form .btn:hover {
+    background-color: #fafafa;
+    border: 1px solid #daa520;
+    color: #daa520;
+}
+
 
 
 
