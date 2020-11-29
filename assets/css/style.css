@@ -261,6 +261,22 @@ mark {
     border-radius: 10px;
 }
 
+/* The Student Club */
+.student-club {
+    background-color: #323232;
+    height: 260px;
+}
+
+.student-club-info {
+    text-align: center;
+    color: #fafafa;
+}
+
+.student-club-info h3 {
+    padding-top: 15px; 
+}
+
+
 
 
 
