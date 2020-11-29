@@ -262,11 +262,13 @@ mark {
     border-radius: 10px;
 }
 
-/* The Student Club */
-.student-club {
+/* The Student/ Loyalty Container*/
+.student-loyalty {
     background-color: #323232;
     height: 260px;
 }
+
+/* The Student Club */
 
 .student-club-info {
     text-align: center;
@@ -286,6 +288,44 @@ mark {
 .loyalty-card-info h3 {
     padding-top: 15px;
 }
+
+
+/* ------ Order Now Via ----- */
+
+
+.order-via h3 {
+    color: #fafafa;
+    background-color: #daa520;
+    opacity: 0.9;
+    text-shadow: 1px 1px #323232;
+    border: 1px solid #fafafa;
+    padding: 4px;
+}
+
+.order-via .col {
+    text-align: center; 
+}
+
+.order-via .col .btn {
+    background-color: #daa520;
+    text-shadow: 1px 1px #323232;
+    opacity: 0.9;
+    color: #fafafa;
+    font-weight: 800;
+    border: 1px solid #fafafa;
+}
+
+.order-via .col .btn:hover {
+    background-color: #fafafa;
+    opacity: 0.9;
+    color: #323232;
+    text-shadow: 1px 1px #daa520;
+    border: 2px solid #323232;
+    border-radius: 10px; 
+}
+
+    
+
 
 
 
