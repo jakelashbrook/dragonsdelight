@@ -220,16 +220,17 @@ mark {
 
 /* Newsletter Sign Up Container */
 .newsletter-container {
-    background-color: #323232;
+    background-color: #daa520;
     padding-top: 15px;
     border-width: 0.5px 1px 0.5px 1px;
     border-style: solid;
-    border-color: #daa520;
+    border-color: #fafafa;
     text-align: center;
 }
 
 .newsletter-container .newsletter-title {
-    text-shadow: 1px 1px #fafafa;
+    color: #fafafa;
+    text-shadow: 1px 1px #323232;
     margin-bottom: 15px;
 }
 
@@ -239,7 +240,7 @@ mark {
     box-sizing: border-box;
     padding: 4px;
     margin: 15px;
-    border: 2px solid #daa520;
+    border: 2px solid #323232;
 }
 
 .newsletter-container input[type="submit"] {
@@ -249,15 +250,15 @@ mark {
     margin: 15px;
     font-weight: 600;
     text-transform: uppercase;
-    background-color: #daa520;
-    color: #fafafa;
-    border: 1px solid #fafafa;
+    background-color: #fafafa;
+    color: #323232;
+    border: 1px solid #323232;
 }
 
 .newsletter-container input[type="submit"]:hover {
-    background-color: #fafafa;
-    color: #daa520;
-    border: 1px solid #daa520;
+    background-color: #323232;
+    color: #fafafa;
+    border: 1px solid #fafafa;
     border-radius: 10px;
 }
 
@@ -274,6 +275,16 @@ mark {
 
 .student-club-info h3 {
     padding-top: 15px; 
+}
+
+/* The Loyalty Card */ 
+.loyalty-card-info {
+    color: #fafafa;
+    text-align: center;
+}
+
+.loyalty-card-info h3 {
+    padding-top: 15px;
 }
 
 
