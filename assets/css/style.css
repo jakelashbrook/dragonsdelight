@@ -25,12 +25,20 @@ a {
  color: #daa520;
 }
 
+a:hover {
+    color: #daa520;
+}
+
 hr {
     border: 2px solid #daa520;
 }
 
 mark {
     background-color: #daa520;
+}
+
+em {
+    color: #daa520;
 }
 
 /* The Navigation Bar */
@@ -383,7 +391,13 @@ mark {
     color: #daa520;
 }
 
+.menu-body .milk-options {
+    color: #daa520;
+}
 
+.menu-body .diet-info {
+    color: #fafafa;
+}
 
 
 
@@ -394,7 +408,7 @@ mark {
 #top-of-the-page-btn {
   position: fixed; 
   bottom: 25px; 
-  right: 25px; 
+  right: 40px; 
   z-index: 99; 
   border: 1px solid #fafafa; 
   background-color: #daa520; 
