@@ -150,9 +150,6 @@ mark {
     border-width: 0.5px 1px 0.5px 1px; 
     border-style: solid;
     border-color:#daa520;
-
-    margin: 0;
-    padding: 0;
 }
 /* --- Bio */
 .short-bio {
@@ -178,7 +175,7 @@ mark {
 }
 .why-us-bg-img {
     background-image: url("../images/dutch-apple-pie.webp");
-    filter: saturate(75%);
+    filter: blur(200%);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -189,17 +186,21 @@ mark {
 .why-us-title {
     padding: 25px;
     color: #daa520;
-    font-weight: 800;
 }
 
 .why-us-title h3 {
-    border: 5px solid #daa520;
+    color: #daa520;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 900;
     background-color: #323232;
-    opacity: 0.9;
+    border: 1px solid #daa520;
+    
+    
 }
 
 .why-us-container .col {
-    border: 5px solid #daa520;
+    border: 2px solid #daa520;
     text-align: center;
     background-color: #323232;;
     opacity: 0.9;
@@ -266,6 +267,8 @@ mark {
 .student-loyalty {
     background-color: #323232;
     height: 260px;
+    border: 1px solid #daa520;
+    border-top: none;
 }
 
 /* The Student Club */
@@ -285,41 +288,59 @@ mark {
     text-align: center;
 }
 
+
 .loyalty-card-info h3 {
     padding-top: 15px;
 }
 
 
 /* ------ Order Now Via ----- */
+.order-via {
+    margin-bottom: 0;
+    border: 1px solid #daa520;
+    border-top: none;
+    border-bottom: none;
+}
 
+.order-via .order-via-title {
+    padding-top: 25px;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+}
 
-.order-via h3 {
-    color: #fafafa;
-    background-color: #daa520;
-    opacity: 0.9;
-    text-shadow: 1px 1px #323232;
-    border: 1px solid #fafafa;
+.order-via-title h3 {
+    color: #daa520;
+    text-shadow: 1px 1px #fafafa;
+    background-color: #323232;
+    opacity: 0.75;
+    border: 1px solid #daa520;
+    text-transform: uppercase;
+    font-size: 30px;
     padding: 4px;
+    margin-top: 25px;
 }
 
 .order-via .col {
     text-align: center; 
+    padding-bottom: 25px;
 }
 
 .order-via .col .btn {
-    background-color: #daa520;
-    text-shadow: 1px 1px #323232;
-    opacity: 0.9;
-    color: #fafafa;
+    text-transform: uppercase;
+    color: #daa520;
+    background-color: #323232;
+    opacity: 0.75;
     font-weight: 800;
-    border: 1px solid #fafafa;
+    border: 2px solid #daa520;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .order-via .col .btn:hover {
-    background-color: #fafafa;
-    opacity: 0.9;
+    background-color: #daa520;
+    opacity: 0.75;
     color: #323232;
-    text-shadow: 1px 1px #daa520;
     border: 2px solid #323232;
     border-radius: 10px; 
 }
