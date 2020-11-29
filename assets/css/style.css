@@ -324,7 +324,43 @@ mark {
     border-radius: 10px; 
 }
 
-    
+/* ------------------------ The Menu ------------- */
+.food-and-drinks-menu {
+    border: 1px solid #daa520;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.menu-body {
+    background-color: #323232;
+    color: #fafafa;
+    text-align: center;
+}
+
+.menu-body .menu-title h5 button {
+    font-size: 28px;
+    font-family: "Just Another Hand", sans-serif;
+}
+
+.menu-body h5 {
+  text-shadow: 1px 1px #daa520;
+  letter-spacing: 2px;
+  font-size: 24px;
+}
+
+.menu-body .btn-link {
+    color: #daa520;
+    text-shadow: 1px 1px #fafafa;
+    font-weight: 700;
+}
+
+.menu-body hr {
+    border: 2px solid #daa520;
+}
+
+.menu-body dd {
+    color: #daa520;
+}
 
 
 
