@@ -195,7 +195,6 @@ i {
 
 .why-us-bg-img {
     background-image: url("../images/dutch-apple-pie.webp");
-    filter: blur(200%);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;  
