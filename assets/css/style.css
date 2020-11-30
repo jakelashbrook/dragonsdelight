@@ -462,6 +462,34 @@ i {
     color: #323232;
 }
 
+/*          Gallery          */
+
+.gallery-bg-img {
+    background-image: url(../images/homemade-english-muffins.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 100%;
+    height: 200px;
+}
+
+.gallery-btn {
+    background-color: #daa520;
+    color: #fafafa;
+    border: 1px solid #fafafa;
+    margin-top: 90px;
+}
+
+#galleryModal {
+    background-color: #fafafa;
+    
+}
+
+.modal-content {
+    background-color: #323232;
+}
+
 
 /* Scroll to the top button */
 #top-of-the-page-btn {
