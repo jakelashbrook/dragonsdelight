@@ -107,11 +107,11 @@ i {
 
 /* --- Cover Image */
 #cover-bg-img {
-    height: 60vh;
+    height: 70vh;
     width: 100vw;
     margin-right: 0;
 
-    background-image: url("../images/other-vegan-pancakes.webp");
+    background-image: url("../images/cover-transition-images.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -120,7 +120,7 @@ i {
 
 
 #cover-img-container {
-    height: 60vh;
+    height: 70vh;
     width: 100vw;
 
     margin-right: 0;
@@ -265,7 +265,6 @@ i {
 /* The Student/ Loyalty Container*/
 .student-loyalty {
     background-color: #323232;
-    height: 260px;
     border: 1px solid #daa520;
     border-top: none;
 }
@@ -434,8 +433,9 @@ i {
 
 /*                   Find Us           */
 .find-us {
-    background-color: #daa520;
+    background-color: #464646;
     color: #fafafa;
+    border: 1px solid #daa520;
 }
 
 .find-us iframe {
@@ -444,51 +444,48 @@ i {
 }
 
 .find-us h3 {
-    color: #fafafa;
-    text-shadow: 1px 1px #323232;
+    color: #daa520;
+    text-shadow: 1px 1px #fafafa;
 }
 
 
 .find-us h3 i {
-    color: #fafafa;
-    text-shadow: 1px 1px #323232;
+    color: #daa520;
+    text-shadow: 1px 1px #fafafa;
 }
 
 .find-us hr {
-    border: 2px solid #fafafa;
+    border: 2px solid #daa520;
 }
 
 .find-us h5 {
-    color: #323232;
+    color: #daa520;
 }
 
 /*          Gallery          */
-
-.gallery-bg-img {
-    background-image: url(../images/homemade-english-muffins.webp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    width: 100%;
-    height: 200px;
-}
-
-.gallery-btn {
-    background-color: #daa520;
-    color: #fafafa;
-    border: 1px solid #fafafa;
-    margin-top: 90px;
-}
-
-#galleryModal {
-    background-color: #fafafa;
-    
-}
-
-.modal-content {
+#gallery {
     background-color: #323232;
 }
+
+#gallery .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+#gallery .col {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+#gallery .col img {
+  margin-top: 8px;
+ vertical-align: middle;
+  width: 100%;
+}
+
+/*  Mobile Gallery   */
 
 
 /* Scroll to the top button */

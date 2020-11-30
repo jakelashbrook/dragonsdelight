@@ -202,7 +202,7 @@
     <div class="jumbotron-fluid student-loyalty">
         <div class="row">
         <div class="col student-club-info text-center d-none d-xl-block">
-        <div class="container-fluid">
+        <div class="container">
         <h3 class="text-center pt-3"><i class="fas fa-graduation-cap"></i> The Student Club</h3>
         <hr>
         <p>Register to our student club and reserve a quiet spot to study in the cafe,
@@ -214,7 +214,7 @@
 
     <!-- The Loyalty Card-->
         <div class= "col loyalty-card-info pt-3 text-center">
-            <div class="container-fluid">
+            <div class="container">
             <h3 class="text-center"><i class="fas fa-stamp"></i> Grab A Loyalty Card!</h3>
             <hr>
             <p>Did you know Dragons Delight have a Loyalty Card Scheme? Simply get a stamp everytime you buy a coffee,
@@ -227,7 +227,7 @@
 
     <!-- Order Now Via... Banner-->
     <aside>
-    <div class="jumbotron-fluid order-via" style="background-image: url(./assets/images/choc-strawberry-cream.webp); background-size: cover;">
+    <div class="jumbotron-fluid order-via" style="background-image: url(./assets/images/homemade-granola.webp); background-position: center; background-size: cover;">
                 <div class="container">
                 <div class="order-via-title p-3">    
                     <h3 class="text-center text-uppercase"><i class="fas fa-mouse"></i> Order Now</h3>
@@ -402,7 +402,7 @@
 </div>
 </section>
 
-<section>
+<section id="reserve">
 
 <!--Reservation Form   -->
 
@@ -439,8 +439,10 @@
 </div>
 <!-- Reviews Slider             -->
 <div class="jumbotron-fluid ta-reviews mb-0">
-        <h3 class="text-center m-0 p-3"><i class="far fa-comment-alt"></i> Reviews</h3>
+        <div class="container">
+        <h3 class="text-center m-0 p-4"><i class="far fa-comment-alt"></i> Reviews</h3>
         <hr>
+        </div>
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -530,8 +532,10 @@
 
      <!--                Find Us    -->
     <div class="jumbotron-fluid find-us" id="find-us-nav-link">
+        <div class="container">
         <h3 class="text-center pt-4 m-0"><i class="fas fa-map-marker-alt"></i> Find Us</h3>
         <hr>
+        </div>
         <div class="row">
             <div class="col">
                 <div class="container">
@@ -563,39 +567,99 @@
     </div>
 </section>
 
-<!-- The Modal Gallery-->
-<section>
-    <div class="jumbotron-fluid gallery-bg-img text-center">
-        <!-- Gallery Button To Trigger The Modal -->
-        <button type="button" class="btn gallery-btn text-uppercase text-center" data-toggle="modal" data-target="#galleryModal">
-        The Gallery
-    </button>
+<!-- Desktop Gallery-->
+<section id="gallery" class="jumbotron">
+    <div class="container">
+        <h3 class="text-center"><i class="fas fa-camera-retro"></i> The Gallery</h3>
+        <hr>
     </div>
+        <div class="row">
+            <div class="col d-none d-lg-block">
+                    <img src="./assets/images/choc-scone.webp" alt="Homemade Chocolate Chip Scone" 
+                    class="image-fluid w3-animate-opacity w3-hover-grayscale">
+                    <img src="./assets/images/full-english.webp" alt="The Full English Breakfast" 
+                    class="image-fluid w3-animate-opacity w3-hover-grayscale">
+                    <img src="./assets/images/dutch-apple-pie.webp" alt="Homemade Dutch style Apple Pie" 
+                    class="image-fluid w3-animate-opacity w3-hover-grayscale">
+                    <img src="./assets/images/rainbow-cake.webp" alt="Homemade Rainbow Coloured Sponge Cake" 
+                    class="image-fluid w3-animate-opacity w3-hover-grayscale">
+            
+            </div>
+            <div class="col d-none d-lg-block">     
+                    <img src="./assets/images/dragons-hamper.webp" alt="The picnic hamper with fresh baked cakes, sandwiches
+                    and locally sourced soft drinks" class="image-fluid w3-animate-opacity w3-hover-grayscale">
+                    <img src="./assets/images/vegan-pancakes.webp" alt="Our secret recipe vegan pancakes under a bed of berries 
+                    and syrup" class="image-fluid w3-animate-opacity w3-hover-grayscale">
+                    <img src="./assets/images/dining-area.webp" alt="The Beautifully styled Dining Area, 
+                    a cosy and warm atmosphere" class="image-fluid w3-animate-opacity w3-hover-grayscale">
+                    <img src="./assets/images/breakfast-bap.webp" 
+                    alt="Our Breakfast Bap filled with Bacon, Sausage and Fried Eggs" class="image-fluid w3-animate-opacity w3-hover-grayscale">
+                    <img src="./assets/images/events-cakes.webp" 
+                    alt="A selection of cupcakes made for a customers event" class="image-fluid w3-animate-opacity w3-hover-grayscale">
+            </div>
+             <div class="col d-none d-lg-block">     
+                    <img src="./assets/images/blueberry-scone.webp" alt="Our Homemade Blueberry Scone" class="image-fluid w3-animate-opacity w3-hover-grayscale">
+                    <img src="./assets/images/outside-dragons.webp" alt="The Dragons Delight Terrace Area" class="image-fluid w3-animate-opacity w3-hover-grayscale">
+                    <img src="./assets/images/coffee-art.webp" alt="Small Latte with a leaf drawn using barista art skills" class="image-fluid w3-animate-opacity w3-hover-grayscale">
+                    <img src="./assets/images/dragons-team.webp" alt="Meet Saima, Jade and Maggie- The Dragons Delight Team" class="image-fluid w3-animate-opacity w3-hover-grayscale">
+                    <img src="./assets/images/choc-scone.webp" alt="Homemade Chocolate Scone covered in Callebaut Chocolate chips" 
+                    class="image-fluid w3-animate-opacity w3-hover-grayscale">
+            </div>
+            <div class="col d-none d-lg-block">     
+                    <img src="./assets/images/white-choc-raspberry-cheesecake.webp" 
+                    alt="Homemade White Chocolate and raspberry cheesecake" class="image-fluid w3-animate-opacity w3-hover-grayscale">
+                    <img src="./assets/images/brownie.webp" alt="Homemade Triple Chocolate Brownie" 
+                    class="image-fluid w3-animate-opacity w3-hover-grayscale">
+                    <img src="./assets/images/dragon-carrot-cake.webp" alt="Our famous Dragon print Carrot Cake" 
+                    class="image-fluid w3-animate-opacity w3-hover-grayscale">
+                    <img src="./assets/images/pestana.webp" alt="We are located right next to the Pestana Riverside Hotel, 
+                    on the Amsteldijk" class="image-fluid w3-animate-opacity w3-hover-grayscale">
+            </div>
+        </div>
 
-<!-- Gallery Modal Area -->
-<div class="modal fade" id="galleryModal" tabindex="-1" role="dialog" aria-labelledby="galleryModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <center><h3 class="modal-title text-uppercase text-center" id="galleryModalLabel">The Gallery</h3></center>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="text-center modal-footer p-0">
-        <button type="button" class="btn gallery-btn text-uppercase text-center" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
+    <!-- Mobile Gallery -->
+    <div class="w3-content w3-display-container d-lg-none">
+  <img class="mySlides" src="./assets/images/pestana.webp" alt="We are located right next to the Pestana Riverside Hotel, 
+    on the Amsteldijk" style="width:100%; height: 300px;">
+  <img class="mySlides" src="./assets/images/dragon-carrot-cake.webp" alt="Our famous Dragon print Carrot Cake" style="width:100%; height: 300px;">
+  <img class="mySlides" src="./assets/images/brownie.webp" alt="Homemade Triple Chocolate Brownie" style="width:100%; height: 300px;">
+  <img class="mySlides" src="./assets/images/white-choc-raspberry-cheesecake.webp" 
+                    alt="Homemade White Chocolate and raspberry cheesecake" style="width:100%; height: 300px;">
+  <img class="mySlides" src="./assets/images/choc-scone.webp" alt="Homemade Chocolate Scone covered in Callebaut Chocolate chips" style="width:100%; height: 300px;">
+  <img class="mySlides" src="./assets/images/dragons-team.webp" alt="Meet Saima, Jade and Maggie- The Dragons Delight Team" style="width:100%; height: 300px;">
+  <img class="mySlides" src="./assets/images/vegan-pancakes.webp" alt="Our secret recipe vegan pancakes under a bed of berries 
+                    and syrup" style="width:100%; height: 300px;">
+  <img class="mySlides" src="./assets/images/blueberry-scone.webp" alt="Our Homemade Blueberry Scone" style="width:100%; height: 300px;">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
 </div>
+    
 </section>
 
 
     <!--     Scroll to top button-->
     <a id="top-of-the-page-btn" title="scroll to top of page" class="btn" href="#top-of-the-page"><i class="fas fa-arrow-up"></i></a>
+<!-- Mobile and Tablet Slide Gallery-->
+<script>
+    var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
     <!-- Font Awesome Link -->
     <script rel="preconnect stylesheet" src="https://kit.fontawesome.com/d7aebf5372.js" crossorigin="anonymous" defer></script> 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
