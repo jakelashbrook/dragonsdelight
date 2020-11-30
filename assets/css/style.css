@@ -311,10 +311,10 @@ i {
 }
 
 .order-via .col .btn:hover {
-    background-color: #323232;
+    background-color: #daa520;
     opacity: 0.9;
-    color: #daa520;
-    border: 2px solid #daa520;
+    color: #323232;
+    border: 2px solid #323232;
     border-radius: 10px; 
 }
 
@@ -371,17 +371,13 @@ i {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+    border: 1px solid #daa520;
 }
 
 .reservation-area .reservation-title {
     background-color: #323232;
     opacity: 0.9;
-}
-
-
-.reservation-title h3 {
-    color: #daa520;
-    text-shadow: 1px 1px #fafafa;
 }
 
 
@@ -420,11 +416,7 @@ i {
 .ta-reviews {
     background-color: #323232;
     color: #fafafa;
-}
-
-.ta-reviews .col {
-    margin: 15px;
-    text-align: center;
+    border: 1px solid #daa520;
 }
 
 
@@ -440,13 +432,34 @@ i {
     color: #daa520;
 }
 
-/* Find Us           */
+/*                   Find Us           */
 .find-us {
-    color: #5a5a5a;
+    background-color: #daa520;
+    color: #fafafa;
+}
+
+.find-us iframe {
+    width: 100%;
+    height: 275px;
+}
+
+.find-us h3 {
+    color: #fafafa;
+    text-shadow: 1px 1px #323232;
+}
+
+
+.find-us h3 i {
+    color: #fafafa;
+    text-shadow: 1px 1px #323232;
+}
+
+.find-us hr {
+    border: 2px solid #fafafa;
 }
 
 .find-us h5 {
-    color: #daa520;
+    color: #323232;
 }
 
 
