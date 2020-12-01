@@ -3,8 +3,6 @@
 }
 
 
-/* Font and Style Rules */
-
 h1,
 h2,
 h3 {
@@ -473,21 +471,16 @@ i {
     -webkit-column-break-after: always;
 }
 
-@media screen and (max-width:1020px) {
+
+@media screen and (max-width:900px) {
     #gallery {
         column-count: 3;
     }
 }
 
-@media screen and (max-width:900px) {
-    #gallery {
-        column-count: 2;
-    }
-}
-
 @media screen and (max-width:600px) {
     #gallery {
-        column-count: 1;
+        column-count: 2;
     }
 }
 
