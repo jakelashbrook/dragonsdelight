@@ -111,7 +111,7 @@ i {
     width: 100vw;
     margin-right: 0;
 
-    background-image: url("../images/cover-transition-images.webp");
+    background-image: url("../images/other-vegan-pancakes.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -463,27 +463,38 @@ i {
 }
 
 /*          Gallery          */
-#gallery {
+.gallery-section {
     background-color: #323232;
 }
 
-#gallery .row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
+#gallery {
+    column-count: 4;
+    column-gap: 4px;
+    -webkit-column-break-after: always;
 }
 
-#gallery .col {
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
+@media screen and (max-width:1020px) {
+    #gallery {
+        column-count: 3;
+    }
 }
 
-#gallery .col img {
-  margin-top: 8px;
- vertical-align: middle;
-  width: 100%;
+@media screen and (max-width:900px) {
+    #gallery {
+        column-count: 2;
+    }
 }
+
+@media screen and (max-width:600px) {
+    #gallery {
+        column-count: 1;
+    }
+}
+
+#gallery img {
+    max-width: 100%;
+}
+
 
 /*  Mobile Gallery   */
 
