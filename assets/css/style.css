@@ -478,18 +478,34 @@ i {
     }
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:725px) {
     #gallery {
         column-count: 2;
     }
 }
 
+
+
+@media screen and (max-width:450px) {
+    #gallery {
+        column-count: 1;
+    }
+}
+
 #gallery img {
     max-width: 100%;
+    margin: 2px;
 }
 
 
-/*  Mobile Gallery   */
+/* The Footer */ 
+.footer-container {
+    background-color: #323232;
+    opacity: 0.9;
+    color: #fafafa;
+    border: 1px solid #daa520;
+    
+}
 
 
 /* Scroll to the top button */
