@@ -468,7 +468,6 @@ i {
 #gallery {
     column-count: 4;
     column-gap: 4px;
-    -webkit-column-break-after: always;
 }
 
 
