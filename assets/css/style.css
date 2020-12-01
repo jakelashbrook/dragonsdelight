@@ -398,15 +398,15 @@ i {
 }
 
 .reservation-area form .btn {
-    background-color: #daa520;
-    border: 1px solid #fafafa;
-    color: #fafafa;
-}
-
-.reservation-area form .btn:hover {
     background-color: #fafafa;
     border: 1px solid #daa520;
     color: #daa520;
+    }
+
+.reservation-area form .btn:hover {
+    background-color: #daa520;
+    border: 1px solid #fafafa;
+    color: #fafafa;
 }
 
 /*         Tripadvisor Reviews */
