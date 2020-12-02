@@ -135,10 +135,7 @@ to ensure there were no syntax errors in the project:
       - a.  There are contact methods for emailing and calling displayed in the naviagtion menu with icons and titles describing them upon hovering.
       - b.  There are also Social Media Links available in the top navigation, which users could also contact Dragons Delight via.
       - c.  There are further email and call links provided underneath the opening times encouraging users to contact if they have any enquiries.
-
-   
-
-      
+  
 
  - **Returning User Goals:**  
 
@@ -172,16 +169,26 @@ to ensure there were no syntax errors in the project:
 
 ### **Further Testing**
 
-Releases 
+Release Planning
 ====
 
-### **First Release **
+**First Release**  
+
 This is the current version of the website. Everything you see in the [linked repository](#) is the first release
 of the Dragons Delight MVP website. There will be later releases planned as my coding knowledge expands so that
 the site can continue to grow and evolve to meet the users and companies needs.  
 
-### ** Future Releases**
-  
+**Next Release**  
+
+The next planned release will involve making the site available in Dutch, French, Spanish, German and Italian. 
+
+**Future Releases**  
+
+Future Releases will involve more interactive facilities built into the gallery. An Online store for direct orders,
+A staff portal and an area for job applicants to send in cover letters, CV's and relevant information. These releases
+will happen when i've finished studying more languages that will enable me to enact these advancements- and also when
+there is the time and budget available.
+
 
 Deployment 
 ==== 
