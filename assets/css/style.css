@@ -6,11 +6,11 @@
 h1,
 h2,
 h3 {
-    font-family: "Just Another Hand", cursive;
+    font-family: "Noto Sans JP", sans-serif;
     letter-spacing: 4px;
-    font-size: 30px;
+    font-size: 20px;
+    font-weight: 600;
     color: #daa520;
-    text-shadow: 1px 1px #fafafa;
     text-transform: capitalize;
 }
 
@@ -282,12 +282,9 @@ i {
 
 .order-via-title h3 {
     color: #daa520;
-    text-shadow: 1px 1px #fafafa;
     background-color: #323232;
     opacity: 0.9;
     border: 1px solid #daa520;
-    font-size: 30px;
-    
 }
 
 
@@ -328,7 +325,6 @@ i {
 
 .menu-body h5 {
   color: #daa520;
-  text-shadow: 1px 1px #fafafa;
   letter-spacing: 2px;
   font-size: 24px;
 }
@@ -436,7 +432,6 @@ i {
 
 .find-us h3 {
     color: #daa520;
-    text-shadow: 1px 1px #fafafa;
 }
 
 
