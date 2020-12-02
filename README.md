@@ -1,6 +1,6 @@
 # Dragons Delight Cafe and Bakery Website
 
-[You can view the project here on Github Pages](#)
+[You can view the project here on Github Pages](https://jakelashbrook.github.io/dragonsdelight/.)
 
 Image of completed project to go here.
 
@@ -186,7 +186,7 @@ The next planned release will involve making the site available in Dutch, French
 
 Future Releases will involve more interactive facilities built into the gallery. An Online store for direct orders,
 A staff portal and an area for job applicants to send in cover letters, CV's and relevant information. These releases
-will happen when i've finished studying more languages that will enable me to enact these advancements- and also when
+will happen when i've finished studying more software languages that will enable me to enact these advancements- and also when
 there is the time and budget available.
 
 
@@ -204,7 +204,7 @@ Deployment
  4. Then, Click on the "Source" button. 
  5. In the Dropdown, hit the "None" option and finally select the "Master Branch".
  6. After this confirmation the page will refresh and take you back to the top of the "Settings" page.
- 7. Simply scroll back down to "GitHub Pages" section and you will locate [link]() for the published site.
+ 7. Simply scroll back down to "GitHub Pages" section and you will locate [link](https://jakelashbrook.github.io/dragonsdelight/.) for the published site.
 
  ### **Forking the repository**
 
@@ -239,7 +239,7 @@ Credits
 ### **Code**
  - [Bootstrap 4.0.0](https://getbootstrap.com/docs/4.3/components/navbar/) Framework used throughout the website
  for responsive components and the grid system.
-- [Google Map Generator](#) was used for the map iFrame in the Find Us section. The code has been edited slightly via 
+- [Google Map Generator](https://www.embedgooglemap.net/) was used for the map iFrame in the Find Us section. The code has been edited slightly via 
  CSS and certain HTML parts removed to optimize its style within the page.
 
 ### **Content**
