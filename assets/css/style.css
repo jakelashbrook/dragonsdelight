@@ -211,13 +211,6 @@ i {
     opacity: 0.9;
 }
 
-.why-us-container h5 {
-    font-size: 24px;
-    font-weight: 700;
-    color: #daa520;
-    text-shadow: 1px 1px #fafafa;
-}
-
 .why-us-container .col i {
     font-size: 42px;
 }
@@ -417,7 +410,7 @@ i {
 }
 
 
-.ta-reviews h5 {
+.ta-reviews h4 {
     color: #daa520;
 }
 
@@ -456,7 +449,7 @@ i {
     border: 2px solid #daa520;
 }
 
-.find-us h5 {
+.find-us h4 {
     color: #daa520;
 }
 
