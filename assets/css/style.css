@@ -464,29 +464,7 @@ i {
 }
 
 #gallery {
-    column-count: 4;
-    column-gap: 4px;
-}
-
-
-@media screen and (max-width:900px) {
-    #gallery {
-        column-count: 3;
-    }
-}
-
-@media screen and (max-width:725px) {
-    #gallery {
-        column-count: 2;
-    }
-}
-
-
-
-@media screen and (max-width:450px) {
-    #gallery {
-        column-count: 1;
-    }
+    background-color: #323232;
 }
 
 #gallery img {
