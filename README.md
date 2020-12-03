@@ -107,8 +107,8 @@ Testing
 The W3C Markup Validator and The W3C CSS Validator Services were used to validate every page of the project
 to ensure there were no syntax errors in the project:  
 
-  - [W3C Markup Validator - Results](#)
-  - [W3C CSS Validator - Results](#)  
+  - [W3C Markup Validator - Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjakelashbrook.github.io%2Fdragonsdelight%2F)
+  - [W3C CSS Validator - Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjakelashbrook.github.io%2Fdragonsdelight%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)  
 
 ### **Testing User Stories from the UX Section**
  - **First Time User Goals:**  
@@ -166,28 +166,66 @@ to ensure there were no syntax errors in the project:
       - b. Next to the Loyalty Scheme section, there is information about the special Student Club currently
       on offer at Dragons Delight. Users can click the email link to sign up.
 
+### **UX Survey**
+As part of my User Experience analysis I decided to run a survey with close family and friends, and the company
+that the website will be for. During the testing phase i deployed the site to GitHub pages and made a survey with 
+the following questions:  
+
+- **1. What changes could be made to make the site look more appealing?**
+    - One survey reply suggested to use snaps with customers in, however the company
+    did not want to use this approach out of fear of not having consent to publish.
+    - Another response suggested using better quality photos. This was a tough part of
+    designing the site. Currently most of their content library is amateur photography.
+    The company plans to get a photographer in for some proffesional photos, at this point
+    all images on the website will be upgraded. Images have been set at 600x600 to try and make 
+    them as responsive as possible.
+    - Another User suggested changing the heading font on the sections to make the site more 
+    readable. This action has been taken and now only has Noto Sans JP across the site accept 
+    for the logo title.  
+
+- **2. What could be improved with the functionality/navigation of the site?**
+    - One Survey User suggested the button to the top didn't take the page right to the top
+    of the page. This comment was immediately addressed and has now been fixed.
+    - Other suggestions were noted for later releases when Javascript will be added.
+- **3. What other functionalities do you think the site should have?** 
+    - Most Users of the survey stated that nothing came to mind.
+    - One User stated a Cake Ordering System, this is planned for a later release.
+- **4. Do you have any suggestions for other improvements to the site?**
+    - The majority of survey users had nothing to add.
+- **5. How would you rate your overall experience with the website?**
+    - All Users voted Good or Very Good.  
+
+*You can view the survey results [here](./assets/ux/ux-survey-results.pdf).*
 
 ### **Further Testing**
+  - The website has been tested on Google Chrome, Internet Explorer, Microsoft and Safari Browsers on 
+  multiple occasions.
+  - All links on the site have been thoroughly tested on numerous occasions.
+  - A User Experience Survey was completed by friends and family, as well as staff members of Dragons
+  Delight.
+  - The website has been viewed on a variety of devices from Desktop, Laptop, a series of iPhones, iPad,
+  Moto G4, Huawei, Pixel, and more.
+
 
 Release Planning
 ====
 
-**First Release**  
+**Initial Release**  
 
 This is the current version of the website. Everything you see in the [linked repository](#) is the first release
 of the Dragons Delight MVP website. There will be later releases planned as my coding knowledge expands so that
 the site can continue to grow and evolve to meet the users and companies needs.  
 
-**Next Release**  
 
-The next planned release will involve making the site available in Dutch, French, Spanish, German and Italian. 
+**Later Releases**  
+- A swipe "Gallery" for mobiles and tablets once more knowledge of Javasccript has been acquired.
+- Multi Lingual options with flags of relevant languages to click on.
+- A "Bakery Store" where users can pre-order cakes for collection.
+- A "Work For Us" area where users can apply for a job with their CV's.
+- A "Staff Portal" where rotas, holiday requests, personnel details, and edits to the site can be made from.
 
-**Future Releases**  
-
-Future Releases will involve more interactive facilities built into the gallery. An Online store for direct orders,
-A staff portal and an area for job applicants to send in cover letters, CV's and relevant information. These releases
-will happen when i've finished studying more software languages that will enable me to enact these advancements- and also when
-there is the time and budget available.
+*These releases will be made when more time is available and more software languages have been learnt to enact 
+them.*
 
 
 Deployment 
@@ -206,6 +244,8 @@ Deployment
  6. After this confirmation the page will refresh and take you back to the top of the "Settings" page.
  7. Simply scroll back down to "GitHub Pages" section and you will locate [link](https://jakelashbrook.github.io/dragonsdelight/.) for the published site.
 
+*You can find out more about GitHub Pages [here](https://pages.github.com/).*
+
  ### **Forking the repository**
 
  You can fork the repository to make a copy of the original repository where you can make edits or changes to 
@@ -216,6 +256,8 @@ Deployment
  "Settings" button you can locate the "Fork" Button.
  3. Press the "Fork" Button.
  4. You should now have a copy of the [Dragons Delight Repository](https://github.com/jakelashbrook/dragonsdelight) in your GitHub Accounts Repository area.
+
+*You can find out more about forking a repository [here](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo).*
 
  ### **Making a Local clone** 
 
@@ -231,7 +273,7 @@ Deployment
     `$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY`
  6. Press Enter and your local clone should be created.  
 
- You can find more supportive information on the process of cloning a repository [here](#).
+*You can find more supportive information on the process of cloning a repository [here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository).*
 
 Credits  
 ==== 
@@ -241,6 +283,8 @@ Credits
  for responsive components and the grid system.
 - [Google Map Generator](https://www.embedgooglemap.net/) was used for the map iFrame in the Find Us section. The code has been edited slightly via 
  CSS and certain HTML parts removed to optimize its style within the page.
+ - [W3.css Display Container](https://www.w3schools.com/w3css/w3css_images.asp) was used to display the Order CTA 
+ overlaying the cover image.
 
 ### **Content**
  - All of the content was developed by Jake Ashley Lashbrook. Business operation times and menu items were provided
