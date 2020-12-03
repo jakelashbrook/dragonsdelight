@@ -2,7 +2,7 @@
 
 [You can view the project here on Github Pages](https://jakelashbrook.github.io/dragonsdelight/.)
 
-Image of completed project to go here.
+<img src="images/site-screenshot.jpg" alt="Screenshot of Dragons Delight Website on multiple devices">
 
 This is the main online prescence for Dragons Delight excluding their Social Media profiles. The aim is to
 provide everything that customers are looking for in one place. It is designed to be responsive so that 
@@ -48,13 +48,13 @@ the main income of the business comes from adventurous tourists exploring Amster
 
 ## Wireframes
        
-  - You can view the [mobile wireframe here.]("./master/docs/wireframes/mobile-wireframe.jpg")
+  - You can view the [mobile wireframe here.]("https://github.com/jakelashbrook/dragonsdelight/blob/cb25210e34b9737522dcfa75b7cfbd289f1e773f/docs/wireframes/mobile-wireframe.jpg")
   - The site will have one page with 3 sections within it. There are 4 wireframes sketched for the desktop version.
     Please click the links to see each wireframe:   
-    - [Navigation Wireframe]("./docs/wireframes/navigation-wireframe.jpg")
-    - [Menu Wireframe]("./docs/wireframes/menu-wireframe.jpg")
-    - [Reservation Wireframe]("./docs/wireframes/reservation-wireframe.jpg")
-    - [Gallery Wireframe]("./docs/wireframes/gallery-wireframe.jpg")
+    - [Navigation Wireframe]("jakelashbrook/dragonsdelight/blob/cb25210e34b9737522dcfa75b7cfbd289f1e773f/docs/wireframes/navigation-wireframe.jpg")
+    - [Menu Wireframe]("jakelashbrook/dragonsdelight/blob/cb25210e34b9737522dcfa75b7cfbd289f1e773f/docs/wireframes/menu-wireframe.jpg")
+    - [Reservation Wireframe]("jakelashbrook/dragonsdelight/blob/cb25210e34b9737522dcfa75b7cfbd289f1e773f/docs/wireframes/reservation-wireframe.jpg")
+    - [Gallery Wireframe]("jakelashbrook/dragonsdelight/blob/cb25210e34b9737522dcfa75b7cfbd289f1e773f/docs/wireframes/gallery-wireframe.jpg")
 
 ## Features
   - Easy navigation through the site with a scroll to the top button on all buttons, 
@@ -195,7 +195,7 @@ the following questions:
 - **5. How would you rate your overall experience with the website?**
     - All Users voted Good or Very Good.  
 
-*You can view the survey results [here](./assets/ux/ux-survey-results.pdf).*
+*You can view the survey results [here](./docs/ux-survey-results.pdf).*
 
 ### **Further Testing**
   - The website has been tested on Google Chrome, Internet Explorer, Microsoft and Safari Browsers on 
