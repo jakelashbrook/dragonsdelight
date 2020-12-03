@@ -1,7 +1,14 @@
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     box-sizing: border-box;
 }
 
+body { 
+    position: relative;
+}
 
 h1,
 h2,
@@ -105,7 +112,7 @@ i {
 
 /* --- Cover Image */
 #cover-bg-img {
-    height: 70vh;
+    height: 60vh;
     width: 100vw;
     margin-right: 0;
 
@@ -118,7 +125,7 @@ i {
 
 
 #cover-img-container {
-    height: 70vh;
+    height: 60vh;
     width: 100vw;
 
     margin-right: 0;
@@ -272,8 +279,6 @@ i {
 .loyalty-card-info {
     color: #fafafa;
 }
-
-
 
 
 /* ------ Order Now Via ----- */
