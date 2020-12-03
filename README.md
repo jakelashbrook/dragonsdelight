@@ -48,13 +48,13 @@ the main income of the business comes from adventurous tourists exploring Amster
 
 ## Wireframes
        
-  - You can view the [mobile wireframe here.]("./assets/wireframes/mobile-wireframe.jpg")
+  - You can view the [mobile wireframe here.]("./master/docs/wireframes/mobile-wireframe.jpg")
   - The site will have one page with 3 sections within it. There are 4 wireframes sketched for the desktop version.
     Please click the links to see each wireframe:   
-    - [Navigation Wireframe]("./assets/wireframes/navigation-wireframe.jpg")
-    - [Menu Wireframe]("./assets/wireframes/menu-wireframe.jpg")
-    - [Reservation Wireframe]("./assets/wireframes/reservation-wireframe.jpg")
-    - [Gallery Wireframe]("./assets/wireframes/gallery-wireframe.jpg")
+    - [Navigation Wireframe]("./docs/wireframes/navigation-wireframe.jpg")
+    - [Menu Wireframe]("./docs/wireframes/menu-wireframe.jpg")
+    - [Reservation Wireframe]("./docs/wireframes/reservation-wireframe.jpg")
+    - [Gallery Wireframe]("./docs/wireframes/gallery-wireframe.jpg")
 
 ## Features
   - Easy navigation through the site with a scroll to the top button on all buttons, 
