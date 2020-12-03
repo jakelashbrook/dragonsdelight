@@ -177,11 +177,13 @@ i {
     color: #fafafa;
 }
 
+
 /* --- Opening Times */
 .opening-bio .opening-times {
     background-color: #323232;
     color: #fafafa;
 }
+
 
 /* Why Visit Us? */
 
@@ -270,6 +272,8 @@ i {
 .loyalty-card-info {
     color: #fafafa;
 }
+
+
 
 
 /* ------ Order Now Via ----- */
@@ -403,6 +407,7 @@ i {
     background-color: #323232;
     color: #fafafa;
     border: 1px solid #daa520;
+    scroll-behavior: smooth;
 }
 
 
