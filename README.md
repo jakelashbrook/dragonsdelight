@@ -2,14 +2,14 @@
 
 [You can view the project here on Github Pages](https://jakelashbrook.github.io/dragonsdelight/.)
 
-<img src="images/site-screenshot.jpg" alt="Screenshot of Dragons Delight Website on multiple devices">
+![Site Screenshot](/assets/images/site-screenshot.jpg)
 
 This is the main online prescence for Dragons Delight excluding their Social Media profiles. The aim is to
 provide everything that customers are looking for in one place. It is designed to be responsive so that 
 users can access it from multiple devices. This site will be made with a mobile first approach due to the fact
 the main income of the business comes from adventurous tourists exploring Amsterdam.
 
- User Experience (UX) 
+User Experience (UX)
 ===== 
   - First Time User Goals:
 
@@ -48,13 +48,18 @@ the main income of the business comes from adventurous tourists exploring Amster
 
 ## Wireframes
        
-  - You can view the [mobile wireframe here.]("https://github.com/jakelashbrook/dragonsdelight/blob/cb25210e34b9737522dcfa75b7cfbd289f1e773f/docs/wireframes/mobile-wireframe.jpg")
+  - You can view the [mobile wireframe here.]("./docs/wireframes/mobile-wireframe.jpg")
   - The site will have one page with 3 sections within it. There are 4 wireframes sketched for the desktop version.
     Please click the links to see each wireframe:   
-    - [Navigation Wireframe]("jakelashbrook/dragonsdelight/blob/cb25210e34b9737522dcfa75b7cfbd289f1e773f/docs/wireframes/navigation-wireframe.jpg")
-    - [Menu Wireframe]("jakelashbrook/dragonsdelight/blob/cb25210e34b9737522dcfa75b7cfbd289f1e773f/docs/wireframes/menu-wireframe.jpg")
-    - [Reservation Wireframe]("jakelashbrook/dragonsdelight/blob/cb25210e34b9737522dcfa75b7cfbd289f1e773f/docs/wireframes/reservation-wireframe.jpg")
-    - [Gallery Wireframe]("jakelashbrook/dragonsdelight/blob/cb25210e34b9737522dcfa75b7cfbd289f1e773f/docs/wireframes/gallery-wireframe.jpg")
+    - [Navigation Wireframe]("./docs/wireframes/navigation-wireframe.jpg")
+    - [Menu Wireframe]("./docs/wireframes/menu-wireframe.jpg")
+    - [Reservation Wireframe]("./docs/wireframes/reservation-wireframe.jpg")
+    - [Gallery Wireframe]("./docs/wireframes/gallery-wireframe.jpg") 
+
+The site has slightly evolved in the process of design, I re-evaluated my UX Stories several times throughout
+the design process to make sure i had fully assessed the culture and experience needs of both the user and the
+company. I decided a good way of keeping up with relevant news would be a newsletter, so that those who did not
+posess Social Media accounts could remain in the loop.  
 
 ## Features
   - Easy navigation through the site with a scroll to the top button on all buttons, 
@@ -94,7 +99,7 @@ Technologies Used
     I originally planned to include more W3.css animations on the gallery area, but decided to hold back 
     for a later release so the site can visibly grow more over several releases.
 7. [EZ Gif](https://ezgif.com/)  
-    - Used to edit the width/height of images used and decrease their file sizes
+    - Used to edit the width/height of images and decrease their file sizes
    whilst maintining the maximum quality possible. 
 8. [Minify Code](http://minifycode.com/)   
    - Used to Minify the CSS file to improve rendering performance by the
@@ -205,6 +210,8 @@ the following questions:
   Delight.
   - The website has been viewed on a variety of devices from Desktop, Laptop, a series of iPhones, iPad,
   Moto G4, Huawei, Pixel, and more.
+  - Google Lighthouse was used throughout the development of the site.
+  - Responsinator was used used in the later stages of testing the site.
 
 
 Release Planning
@@ -214,17 +221,33 @@ Release Planning
 
 This is the current version of the website. Everything you see in the [linked repository](#) is the first release
 of the Dragons Delight MVP website. There will be later releases planned as my coding knowledge expands so that
-the site can continue to grow and evolve to meet the users and companies needs.  
+the site can continue to grow and evolve to meet the users and companies needs. Time is also a factor in assesing 
+later releases. Stages are yet to be decided, but you can see a list below of areas that will be addressed in future
+releases.
 
 
 **Later Releases**  
-- A swipe "Gallery" for mobiles and tablets once more knowledge of Javasccript has been acquired.
-- Multi Lingual options with flags of relevant languages to click on.
-- A "Bakery Store" where users can pre-order cakes for collection.
+- A seperate design for mobile phone users. I believe the culture of users on mobile phones is different to 
+those who would be accessing the site via laptop or desktop. Users on mobiles are generally in a rush to find
+information. Meaning they want things short and sweet, quick actions on the go. So with this in mind, I would 
+like to make an exclusive version of the site for mobiles when the time is available. This would be heavily 
+focused on touch screen devices and how the site needs to be easy to use without keyboards and mouses. This will
+be easier to enforce once I have learnt how to code with Javascript. Eg. A touchscreen friendly swipe "Gallery" 
+for mobiles and tablets once more knowledge of Javasccript has been acquired. 
+- Multi Lingual options with flags of relevant languages to click on. The next logical step will be to make a Dutch 
+version of the website. The reason English was decided on first was due to the culture of the business. Most of the 
+clients are expats or tourists, and the business is ran using the English language. However, with ambitions to expand
+into the community- I would like to make a Dutch version of all the content available. I will be working on this for
+the next release. Other languages will also be considered at later stages.
+- A "Bakery Store" where users can pre-order cakes for collection. There will be a 24 hour period before the cakes can
+be picked up, and the owner is working on content and descriptions for this. This will come into force at a much later 
+stage.
 - A "Work For Us" area where users can apply for a job with their CV's.
 - A "Staff Portal" where rotas, holiday requests, personnel details, and edits to the site can be made from.
 
-*These releases will be made when more time is available and more software languages have been learnt to enact 
+Other Ideas may be added to this area at a later stage in conjunction with the business and user needs.  
+
+**RELEASE NOTE:** *All of these releases will be made when more time is available and more software languages have been learnt to enact 
 them.*
 
 
