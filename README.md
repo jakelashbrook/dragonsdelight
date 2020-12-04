@@ -37,24 +37,26 @@ User Experience (UX)
         - The colour scheme for the website will be an offshade of white (#fafafa), a dark shade of grey (#323232) and a light brown 
           (#daa520) to bring in the idenity of the business and their colour scheme within the building.
   - **Typography:**
-        - There will be two fonts used on the site, both supplied by Google Fonts. Just Another Hand for the 
-        headings and logo of the site, and Noto Sans JP for the rest of the site. Sans-serif will be used as the backup
-        default font-family.
+        - Originally there were going to be two fonts used across the site, both supplied by [Google Fonts](https://fonts.google.com/). 
+        "Just Another Hand" for the headings and logo of the site, and "Noto Sans JP" for the rest of the site. 
+        Sans-serif will be used as the backup default font-family. However, after doing UX Survey (See in Testing Section)
+        it became clear that users were struggling to read the headings. So i opted to use "Noto Sans JP" across the site,
+        and "Just Another Hand" exclusively for the logo.
 
   - **Imagery:**
         - Imagery will be used frequently in the site to catch the users attention and entice them to sample
-        some of the great products available. The main page will consist of areas with Images as backgrounds,
+        some of the great products available. The page will consist of areas with Images as backgrounds,
         and there will also be a Image Gallery Section for users to look through.
 
 ## Wireframes
        
-  - You can view the [mobile wireframe here.]("./docs/wireframes/mobile-wireframe.jpg")
+  - You can view the [mobile wireframe here.]("/docs/wireframes/mobile-wireframe.jpg")
   - The site will have one page with 3 sections within it. There are 4 wireframes sketched for the desktop version.
     Please click the links to see each wireframe:   
-    - [Navigation Wireframe]("./docs/wireframes/navigation-wireframe.jpg")
-    - [Menu Wireframe]("./docs/wireframes/menu-wireframe.jpg")
-    - [Reservation Wireframe]("./docs/wireframes/reservation-wireframe.jpg")
-    - [Gallery Wireframe]("./docs/wireframes/gallery-wireframe.jpg") 
+    - [Navigation Wireframe]("/docs/wireframes/navigation-wireframe.jpg")
+    - [Menu Wireframe]("/docs/wireframes/menu-wireframe.jpg")
+    - [Reservation Wireframe]("/docs/wireframes/reservation-wireframe.jpg")
+    - [Gallery Wireframe]("/docs/wireframes/gallery-wireframe.jpg") 
 
 The site has slightly evolved in the process of design, I re-evaluated my UX Stories several times throughout
 the design process to make sure i had fully assessed the culture and experience needs of both the user and the
@@ -200,7 +202,7 @@ the following questions:
 - **5. How would you rate your overall experience with the website?**
     - All Users voted Good or Very Good.  
 
-*You can view the survey results [here](./docs/ux-survey-results.pdf).*
+*You can view the survey results [here](/docs/ux-survey-results.pdf).*
 
 ### **Further Testing**
   - The website has been tested on Google Chrome, Internet Explorer, Microsoft and Safari Browsers on 
