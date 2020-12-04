@@ -13,8 +13,8 @@ User Experience (UX)
 ===== 
   - First Time User Goals:
 
-    - a. As a first time user, I want to access a menu to see what products are available should i choose to visit.
-    - b. As a first time user, I want to be able to easily navigate through the site content and find what i'm looking
+    - a. As a first time user, I want to access a menu to see what products are available should I choose to visit.
+    - b. As a first time user, I want to be able to easily navigate through the site content and find what I'm looking
          for with ease.
     - c. As a first time user, I want to see pictures of the restaurant and food to act as evidence of the standard and quality of food. 
     - d. As a first time user, I want to easily find contact methods such as social media, email or telephone links.
@@ -40,26 +40,41 @@ User Experience (UX)
         - Originally there were going to be two fonts used across the site, both supplied by [Google Fonts](https://fonts.google.com/). 
         "Just Another Hand" for the headings and logo of the site, and "Noto Sans JP" for the rest of the site. 
         Sans-serif will be used as the backup default font-family. However, after doing UX Survey (See in Testing Section)
-        it became clear that users were struggling to read the headings. So i opted to use "Noto Sans JP" across the site,
+        it became clear that users were struggling to read the headings. So I opted to use "Noto Sans JP" across the site,
         and "Just Another Hand" exclusively for the logo.
 
   - **Imagery:**
         - Imagery will be used frequently in the site to catch the users attention and entice them to sample
         some of the great products available. The page will consist of areas with Images as backgrounds,
-        and there will also be a Image Gallery Section for users to look through.
+        and there will also be a Image Gallery Section for users to look through. 
 
 ## Wireframes
        
-  - You can view the [mobile wireframe here.]("/docs/wireframes/mobile-wireframe.jpg")
-  - The site will have one page with 3 sections within it. There are 4 wireframes sketched for the desktop version.
-    Please click the links to see each wireframe:   
-    - [Navigation Wireframe]("/docs/wireframes/navigation-wireframe.jpg")
-    - [Menu Wireframe]("/docs/wireframes/menu-wireframe.jpg")
-    - [Reservation Wireframe]("/docs/wireframes/reservation-wireframe.jpg")
-    - [Gallery Wireframe]("/docs/wireframes/gallery-wireframe.jpg") 
+#### The Mobile Wireframe  
+
+![mobile wireframe here.](/docs/wireframes/mobile-wireframe.jpg)
+
+**_The site will have one page with 3 sections within it. There are 4 wireframes sketched for the desktop version.
+Please see the Images for each wireframe below:_**
+
+#### The Navigation Wireframe  
+
+![Navigation Wireframe](/docs/wireframes/navigation-wireframe.jpg)  
+
+#### The Menu Wireframe  
+
+![Menu Wireframe](/docs/wireframes/menu-wireframe.jpg)  
+
+#### The Reservation Wireframe  
+
+![Reservation Wireframe](/docs/wireframes/reservation-wireframe.jpg)  
+
+#### The Gallery Wireframe  
+
+![Gallery Wireframe](/docs/wireframes/gallery-wireframe.jpg) 
 
 The site has slightly evolved in the process of design, I re-evaluated my UX Stories several times throughout
-the design process to make sure i had fully assessed the culture and experience needs of both the user and the
+the design process to make sure I had fully assessed the culture and experience needs of both the user and the
 company. I decided a good way of keeping up with relevant news would be a newsletter, so that those who did not
 posess Social Media accounts could remain in the loop.  
 
@@ -126,7 +141,7 @@ to ensure there were no syntax errors in the project:
       - b. Once clicking on the "Menu" button you're taken directly to the Food and Drink Menu section of the site.
       - c. The user has the option to collapse or expand either Menu.  
     
-    ii. As a first time user, I want to be able to easily navigate through the site content and find what i'm looking
+    ii. As a first time user, I want to be able to easily navigate through the site content and find what I'm looking
         for with ease.  
       - a. Upon entering the site, you find a fixed navigation bar that takes you to all the main sections of the site.
       - b. Throughout the site there is a "Back to the top button" that will take the user back to the top of the page at 
@@ -175,7 +190,7 @@ to ensure there were no syntax errors in the project:
 
 ### **UX Survey**
 As part of my User Experience analysis I decided to run a survey with close family and friends, and the company
-that the website will be for. During the testing phase i deployed the site to GitHub pages and made a survey with 
+that the website will be for. During the testing phase I deployed the site to GitHub pages and made a survey with 
 the following questions:  
 
 - **1. What changes could be made to make the site look more appealing?**
@@ -201,6 +216,11 @@ the following questions:
     - The majority of survey users had nothing to add.
 - **5. How would you rate your overall experience with the website?**
     - All Users voted Good or Very Good.  
+
+Some of the answers in the survey were deemed irrelevant because the Users had merely overlooked 
+things rushing through the process of evaluation. All answers have been throughly investigated, 
+the issues raised that haven't been addressed in this release will be scheduled for the next so
+that Users feel a sense of evolution when returning to use the site.
 
 *You can view the survey results [here](/docs/ux-survey-results.pdf).*
 
