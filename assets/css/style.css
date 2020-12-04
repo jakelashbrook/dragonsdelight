@@ -182,6 +182,7 @@ i {
 .short-bio {
     background-color: #323232;
     color: #fafafa;
+    border: 1px solid #daa520;
 }
 
 
@@ -189,6 +190,7 @@ i {
 .opening-bio .opening-times {
     background-color: #323232;
     color: #fafafa;
+    border: 1px solid #daa520;
 }
 
 
@@ -273,18 +275,20 @@ i {
 
 .student-club-info {
     color: #fafafa;
+    border: 1px solid #daa520;
 }
 
 /* The Loyalty Card */ 
 .loyalty-card-info {
     color: #fafafa;
+    border: 1px solid #daa520;
 }
 
 
 /* ------ Order Now Via ----- */
 .order-via {
     margin-bottom: 0;
-    border: 1px solid #daa520;
+    border: 2px solid #daa520;
     border-top: none;
     border-bottom: none;
 }
@@ -396,15 +400,17 @@ i {
 }
 
 .reservation-area form .btn {
-    background-color: #fafafa;
-    border: 1px solid #daa520;
-    color: #daa520;
-    }
-
-.reservation-area form .btn:hover {
     background-color: #daa520;
     border: 1px solid #fafafa;
     color: #fafafa;
+    font-weight: 700;
+    }
+
+.reservation-area form .btn:hover {
+    background-color: #fafafa;
+    border: 1px solid #daa520;
+    color: #daa520;
+    font-weight: 700;
 }
 
 /*         Tripadvisor Reviews */
@@ -461,15 +467,36 @@ i {
 /*          Gallery          */
 .gallery-section {
     background-color: #323232;
+    border: 1px solid #daa520;
 }
 
 #gallery {
     background-color: #323232;
+    column-count: 4;
+}
+
+@media screen and (max-width: 992px) {
+    #gallery {
+        column-count: 3;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #gallery {
+        column-count: 2;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #gallery {
+        column-count: 1;
+    }
 }
 
 #gallery img {
     max-width: 100%;
     margin: 2px;
+    border: 1px solid #daa520;
 }
 
 
@@ -486,7 +513,7 @@ i {
 /* Scroll to the top button */
 #top-of-the-page-btn {
   position: fixed; 
-  bottom: 25px; 
+  bottom: 40px; 
   right: 40px; 
   z-index: 99; 
   border: 1px solid #fafafa; 
