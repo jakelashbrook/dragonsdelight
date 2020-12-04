@@ -46,7 +46,7 @@ User Experience (UX)
   - **Imagery:**
         - Imagery will be used frequently in the site to catch the users attention and entice them to sample
         some of the great products available. The page will consist of areas with Images as backgrounds,
-        and there will also be a Image Gallery Section for users to look through. 
+        and there will also be a Image "Gallery" Section for users to look through. 
 
 ## Wireframes
        
@@ -76,7 +76,11 @@ Please see the Images for each wireframe below:_**
 The site has slightly evolved in the process of design, I re-evaluated my UX Stories several times throughout
 the design process to make sure I had fully assessed the culture and experience needs of both the user and the
 company. I decided a good way of keeping up with relevant news would be a newsletter, so that those who did not
-posess Social Media accounts could remain in the loop.  
+posess Social Media accounts could remain in the loop. I also decided that the Reviews Section was unnecessary on
+Mobile Devices due to the auto-scrolling feature making it appear glitchy. There is a link in the main navigation to
+the source of the reviews content- so i decided to address this feature in a future release where i hope to make a 
+specialised website for mobile users that address their specific needs and evolving the first release to cater just 
+for larger devices. See the Release Planning Section for more details! 
 
 ## Features
   - Easy navigation through the site with a scroll to the top button on all buttons, 
