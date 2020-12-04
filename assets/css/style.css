@@ -475,11 +475,6 @@ i {
     column-count: 4;
 }
 
-@media screen and (max-width: 992px) {
-    #gallery {
-        column-count: 3;
-    }
-}
 
 @media screen and (max-width: 768px) {
     #gallery {
